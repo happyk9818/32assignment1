@@ -1,6 +1,12 @@
-#a1p1.py
+# a1.py
 
-# Starter code for assignment 1 part 1 in ICS 32 Programming with Software Libraries in Python
+# Starter code for assignment 1 in ICS 32 Programming with Software Libraries in Python
+
+# Replace the following placeholders with your information.
+
+# Taekyung
+# taekyk1@uci.edu
+# 44996270
 
 import os
 from pathlib import Path
@@ -119,6 +125,7 @@ def Command(user_input, user_directory):
     elif user_input == "R":
         #Read the contents of a file.
         option_R(user_directory)
+    
     elif user_input == "Q":
         quit() #Quit the program. *COMPLETE
 
